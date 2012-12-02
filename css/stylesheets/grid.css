@@ -1,0 +1,57 @@
+/* line 1, ../sass/grid.sass */
+.div {
+  background: white;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  height: 120px;
+  width: 120px;
+  box-shadow: 0px 0px 5px #eeeeee;
+  overflow: hidden;
+}
+
+/* line 11, ../sass/grid.sass */
+.handle {
+  cursor: move;
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background: #eeeeee;
+  font-size: 0.3em;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 23, ../sass/grid.sass */
+.drop_element_button {
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  width: 20px;
+  background-image: url("../images/quit.png");
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+/* line 33, ../sass/grid.sass */
+.edit_element_button {
+  cursor: pointer;
+  float: left;
+  height: 20px;
+  width: 20px;
+  background-image: url("../images/edit.png");
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* line 43, ../sass/grid.sass */
+.editor_buttons_area, .layout_buttons_area {
+  float: right;
+}
+
+/* line 46, ../sass/grid.sass */
+#gridHost {
+  margin-bottom: 100px;
+  box-shadow: inset 0 0 5px #eeeeee;
+  overflow: hidden;
+  height: 600px;
+}

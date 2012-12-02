@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link href="css/grid.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/stylesheets/grid.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/jquery-ui-1.8.23.custom.css" media="screen" rel="stylesheet" type="text/css" />
+
+	<link href="css/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 8]>
+	  <link href="css/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script src="js/jquery-1.8.0.js"></script>
+	<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script src="js/ckeditor/ckeditor.js"></script>
+	<script src="js/ckeditor/adapters/jquery.js"></script>
+	
+</head>
+
+
+<body>
+ 
+	<div id="main" class="container_12">
+		<div class="layout_buttons_area" class="grid_8">
+			<button id="create_element_button">Create New Element</button>
+			<button id="submit_layout_button">Save Layout</button>
+		</div>
+		<div id="gridHost" class="grid_12">
+		</div>
+		<div id="dialog-modal" title="Edit Element">	 
+			<p>
+				<textarea class="editor" id="editor1" name="editor1" cols="100" rows="10"></textarea>
+			</p>
+			<div class="editor_buttons_area">
+				<button id="cancel_editor_button">Cancel Changes</button>
+				<button id="submit_editor_button">Submit Changes</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/grid.js" /></script>
+<script src="js/script.js" /></script>
+
+</html>
