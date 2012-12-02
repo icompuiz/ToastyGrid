@@ -1,3 +1,12 @@
+/* 
+
+    Toasty Grid
+    @authur Isioma Nnodum isioma.nnodum@gmail.com
+
+    ToastyGrid is a layout manager built in Javascript using JQuery and FSCK Editor
+
+*/
+
 var c = Math.ceil;
 
 function CreateGrid(gridColumns, cellSize) {
